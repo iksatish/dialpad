@@ -14,6 +14,9 @@
 		2213DBD91C7EF92C00EAA966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2213DBD81C7EF92C00EAA966 /* Assets.xcassets */; };
 		2213DBDC1C7EF92C00EAA966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2213DBDA1C7EF92C00EAA966 /* LaunchScreen.storyboard */; };
 		2213DBE71C7EF92C00EAA966 /* PredictiveKeypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213DBE61C7EF92C00EAA966 /* PredictiveKeypadTests.swift */; };
+		2213DBF31C7EFD1600EAA966 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2213DBF11C7EFD1600EAA966 /* AddressBook.framework */; };
+		2213DBF41C7EFD1600EAA966 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2213DBF21C7EFD1600EAA966 /* AddressBookUI.framework */; };
+		2213DBF61C7EFE9600EAA966 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2213DBF51C7EFE9600EAA966 /* Contacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		2213DBE21C7EF92C00EAA966 /* PredictiveKeypadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredictiveKeypadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2213DBE61C7EF92C00EAA966 /* PredictiveKeypadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictiveKeypadTests.swift; sourceTree = "<group>"; };
 		2213DBE81C7EF92C00EAA966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2213DBF11C7EFD1600EAA966 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2213DBF21C7EFD1600EAA966 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		2213DBF51C7EFE9600EAA966 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2213DBF61C7EFE9600EAA966 /* Contacts.framework in Frameworks */,
+				2213DBF31C7EFD1600EAA966 /* AddressBook.framework in Frameworks */,
+				2213DBF41C7EFD1600EAA966 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,9 @@
 		2213DBC21C7EF92C00EAA966 = {
 			isa = PBXGroup;
 			children = (
+				2213DBF51C7EFE9600EAA966 /* Contacts.framework */,
+				2213DBF11C7EFD1600EAA966 /* AddressBook.framework */,
+				2213DBF21C7EFD1600EAA966 /* AddressBookUI.framework */,
 				2213DBCD1C7EF92C00EAA966 /* PredictiveKeypad */,
 				2213DBE51C7EF92C00EAA966 /* PredictiveKeypadTests */,
 				2213DBCC1C7EF92C00EAA966 /* Products */,
