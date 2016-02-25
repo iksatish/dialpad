@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2213DBCF1C7EF92C00EAA966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213DBCE1C7EF92C00EAA966 /* AppDelegate.swift */; };
+		2213DBD11C7EF92C00EAA966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213DBD01C7EF92C00EAA966 /* ViewController.swift */; };
+		2213DBD41C7EF92C00EAA966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2213DBD21C7EF92C00EAA966 /* Main.storyboard */; };
+		2213DBD71C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2213DBD51C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodeld */; };
+		2213DBD91C7EF92C00EAA966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2213DBD81C7EF92C00EAA966 /* Assets.xcassets */; };
+		2213DBDC1C7EF92C00EAA966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2213DBDA1C7EF92C00EAA966 /* LaunchScreen.storyboard */; };
+		2213DBE71C7EF92C00EAA966 /* PredictiveKeypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213DBE61C7EF92C00EAA966 /* PredictiveKeypadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2213DBE31C7EF92C00EAA966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2213DBC31C7EF92C00EAA966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2213DBCA1C7EF92C00EAA966;
+			remoteInfo = PredictiveKeypad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2213DBCB1C7EF92C00EAA966 /* PredictiveKeypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PredictiveKeypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2213DBCE1C7EF92C00EAA966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2213DBD01C7EF92C00EAA966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2213DBD31C7EF92C00EAA966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2213DBD61C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PredictiveKeypad.xcdatamodel; sourceTree = "<group>"; };
+		2213DBD81C7EF92C00EAA966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2213DBDB1C7EF92C00EAA966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2213DBDD1C7EF92C00EAA966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2213DBE21C7EF92C00EAA966 /* PredictiveKeypadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredictiveKeypadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2213DBE61C7EF92C00EAA966 /* PredictiveKeypadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictiveKeypadTests.swift; sourceTree = "<group>"; };
+		2213DBE81C7EF92C00EAA966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2213DBC81C7EF92C00EAA966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2213DBDF1C7EF92C00EAA966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2213DBC21C7EF92C00EAA966 = {
+			isa = PBXGroup;
+			children = (
+				2213DBCD1C7EF92C00EAA966 /* PredictiveKeypad */,
+				2213DBE51C7EF92C00EAA966 /* PredictiveKeypadTests */,
+				2213DBCC1C7EF92C00EAA966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2213DBCC1C7EF92C00EAA966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2213DBCB1C7EF92C00EAA966 /* PredictiveKeypad.app */,
+				2213DBE21C7EF92C00EAA966 /* PredictiveKeypadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2213DBCD1C7EF92C00EAA966 /* PredictiveKeypad */ = {
+			isa = PBXGroup;
+			children = (
+				2213DBCE1C7EF92C00EAA966 /* AppDelegate.swift */,
+				2213DBD01C7EF92C00EAA966 /* ViewController.swift */,
+				2213DBD21C7EF92C00EAA966 /* Main.storyboard */,
+				2213DBD81C7EF92C00EAA966 /* Assets.xcassets */,
+				2213DBDA1C7EF92C00EAA966 /* LaunchScreen.storyboard */,
+				2213DBDD1C7EF92C00EAA966 /* Info.plist */,
+				2213DBD51C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodeld */,
+			);
+			path = PredictiveKeypad;
+			sourceTree = "<group>";
+		};
+		2213DBE51C7EF92C00EAA966 /* PredictiveKeypadTests */ = {
+			isa = PBXGroup;
+			children = (
+				2213DBE61C7EF92C00EAA966 /* PredictiveKeypadTests.swift */,
+				2213DBE81C7EF92C00EAA966 /* Info.plist */,
+			);
+			path = PredictiveKeypadTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2213DBCA1C7EF92C00EAA966 /* PredictiveKeypad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2213DBEB1C7EF92C00EAA966 /* Build configuration list for PBXNativeTarget "PredictiveKeypad" */;
+			buildPhases = (
+				2213DBC71C7EF92C00EAA966 /* Sources */,
+				2213DBC81C7EF92C00EAA966 /* Frameworks */,
+				2213DBC91C7EF92C00EAA966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PredictiveKeypad;
+			productName = PredictiveKeypad;
+			productReference = 2213DBCB1C7EF92C00EAA966 /* PredictiveKeypad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2213DBE11C7EF92C00EAA966 /* PredictiveKeypadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2213DBEE1C7EF92C00EAA966 /* Build configuration list for PBXNativeTarget "PredictiveKeypadTests" */;
+			buildPhases = (
+				2213DBDE1C7EF92C00EAA966 /* Sources */,
+				2213DBDF1C7EF92C00EAA966 /* Frameworks */,
+				2213DBE01C7EF92C00EAA966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2213DBE41C7EF92C00EAA966 /* PBXTargetDependency */,
+			);
+			name = PredictiveKeypadTests;
+			productName = PredictiveKeypadTests;
+			productReference = 2213DBE21C7EF92C00EAA966 /* PredictiveKeypadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2213DBC31C7EF92C00EAA966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Satish Kumar R Kancherla";
+				TargetAttributes = {
+					2213DBCA1C7EF92C00EAA966 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2213DBE11C7EF92C00EAA966 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2213DBCA1C7EF92C00EAA966;
+					};
+				};
+			};
+			buildConfigurationList = 2213DBC61C7EF92C00EAA966 /* Build configuration list for PBXProject "PredictiveKeypad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2213DBC21C7EF92C00EAA966;
+			productRefGroup = 2213DBCC1C7EF92C00EAA966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2213DBCA1C7EF92C00EAA966 /* PredictiveKeypad */,
+				2213DBE11C7EF92C00EAA966 /* PredictiveKeypadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2213DBC91C7EF92C00EAA966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2213DBDC1C7EF92C00EAA966 /* LaunchScreen.storyboard in Resources */,
+				2213DBD91C7EF92C00EAA966 /* Assets.xcassets in Resources */,
+				2213DBD41C7EF92C00EAA966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2213DBE01C7EF92C00EAA966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2213DBC71C7EF92C00EAA966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2213DBD11C7EF92C00EAA966 /* ViewController.swift in Sources */,
+				2213DBCF1C7EF92C00EAA966 /* AppDelegate.swift in Sources */,
+				2213DBD71C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2213DBDE1C7EF92C00EAA966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2213DBE71C7EF92C00EAA966 /* PredictiveKeypadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2213DBE41C7EF92C00EAA966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2213DBCA1C7EF92C00EAA966 /* PredictiveKeypad */;
+			targetProxy = 2213DBE31C7EF92C00EAA966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2213DBD21C7EF92C00EAA966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2213DBD31C7EF92C00EAA966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2213DBDA1C7EF92C00EAA966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2213DBDB1C7EF92C00EAA966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2213DBE91C7EF92C00EAA966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2213DBEA1C7EF92C00EAA966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2213DBEC1C7EF92C00EAA966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PredictiveKeypad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iks.PredictiveKeypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2213DBED1C7EF92C00EAA966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PredictiveKeypad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iks.PredictiveKeypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2213DBEF1C7EF92C00EAA966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PredictiveKeypadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iks.PredictiveKeypadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PredictiveKeypad.app/PredictiveKeypad";
+			};
+			name = Debug;
+		};
+		2213DBF01C7EF92C00EAA966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PredictiveKeypadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iks.PredictiveKeypadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PredictiveKeypad.app/PredictiveKeypad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2213DBC61C7EF92C00EAA966 /* Build configuration list for PBXProject "PredictiveKeypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2213DBE91C7EF92C00EAA966 /* Debug */,
+				2213DBEA1C7EF92C00EAA966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2213DBEB1C7EF92C00EAA966 /* Build configuration list for PBXNativeTarget "PredictiveKeypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2213DBEC1C7EF92C00EAA966 /* Debug */,
+				2213DBED1C7EF92C00EAA966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2213DBEE1C7EF92C00EAA966 /* Build configuration list for PBXNativeTarget "PredictiveKeypadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2213DBEF1C7EF92C00EAA966 /* Debug */,
+				2213DBF01C7EF92C00EAA966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2213DBD51C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2213DBD61C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodel */,
+			);
+			currentVersion = 2213DBD61C7EF92C00EAA966 /* PredictiveKeypad.xcdatamodel */;
+			path = PredictiveKeypad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2213DBC31C7EF92C00EAA966 /* Project object */;
+}
